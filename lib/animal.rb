@@ -8,4 +8,7 @@ class Animal
     @age_in_days = age * 7
   end
 
+  # def feed!(food)
+  #   weight + food
+  # end
 end
