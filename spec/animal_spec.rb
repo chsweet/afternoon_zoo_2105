@@ -32,7 +32,8 @@ RSpec.describe Animal do
     expect(animal_1.age_in_days).to eq(175)
   end
 
-  xit 'gets feed - 2' do
+#was not able to pass with how I have @weight set up
+  it 'animal gets feed' do
     animal_1 = Animal.new("Sea Otter", 10, 25)
     animal_1.feed!(2)
 
